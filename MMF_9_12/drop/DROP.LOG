@@ -1,0 +1,16 @@
+Calling script drop_schema
+Dropping user MMF_9_12
+old   1: DROP USER &&USER_NAME CASCADE
+new   1: DROP USER MMF_9_12 CASCADE
+
+User dropped.
+
+Calling script drop_tablespaces
+Dropping tablespace MMF_9_12_DATA.
+
+Tablespace dropped.
+
+Dropping tablespace MMF_9_12_IDX.
+
+Tablespace dropped.
+
