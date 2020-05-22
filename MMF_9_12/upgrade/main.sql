@@ -11,5 +11,5 @@
 @./create_table_team.sql
 @./create_table_team_developer.sql
 @./create_table_team_project.sql
-@./create_table_constraints.sql
+@./create_constraints.sql
 
