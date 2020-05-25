@@ -49,7 +49,7 @@ FROM DATA_TABLE;
 -- TASK --
 
 INSERT INTO TASK
-  (CODE, NAME, START_DATE, FINISH_DATE, STAGE_ID, STATUS_ID)
+  (CODE, NAME, START_DATE, FINISH_DATE, STAGE_ID, TASK_STATUS_ID)
 SELECT DISTINCT
   Stage_Tasks_Code, Stage_Tasks_Name, Stage_Tasks_Start_Date, Stage_Tasks_End_Date, S.ID, TS.ID
 FROM DATA_TABLE
@@ -86,7 +86,7 @@ FROM DATA_TABLE
   LEFT JOIN PROJECT P ON (Project_Name = P.NAME AND Project_Description = P.DESCRIPTION AND Project_Start_Date = P.START_DATE AND Project_End_Date = P.FINISH_DATE)
   LEFT JOIN STAGE S ON (Stage_Name = S.NAME AND Stage_Start_Date = S.START_DATE AND Stage_End_Date = S.FINISH_DATE AND P.ID = S.PROJECT_ID)
   LEFT JOIN TASK_STATUS TS ON (Stage_Tasks_Status = TS.NAME)
-  LEFT JOIN TASK T ON (Stage_Tasks_Code = T.CODE AND Stage_Tasks_Name = T.NAME AND Stage_Tasks_Start_Date = T.START_DATE AND Stage_Tasks_End_Date = T.FINISH_DATE AND S.ID = T.STAGE_ID AND TS.ID = T.STATUS_ID);
+  LEFT JOIN TASK T ON (Stage_Tasks_Code = T.CODE AND Stage_Tasks_Name = T.NAME AND Stage_Tasks_Start_Date = T.START_DATE AND Stage_Tasks_End_Date = T.FINISH_DATE AND S.ID = T.STAGE_ID AND TS.ID = T.TASK_STATUS_ID);
 
 -- ROLE --
 
