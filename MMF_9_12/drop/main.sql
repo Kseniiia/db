@@ -1,4 +1,5 @@
 SPOOL DROP.LOG
+ALTER SESSION SET "_oracle_script"=true;
 
 DEFINE USER_NAME = &&1
 PROMPT Calling script drop_schema

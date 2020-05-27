@@ -1,3 +1,5 @@
+ALTER SESSION SET nls_date_format='DD-MM-YYYY';
+
 -- DATA TABLE --
 
 INSERT INTO DATA_TABLE(Project_Name,Project_Description,Project_Start_Date,Project_End_Date,Stage_Name,Stage_Start_Date,Stage_End_Date,Stage_Tasks_Code,Stage_Tasks_Start_Date,Stage_Tasks_End_Date,Stage_Tasks_Name,Stage_Tasks_Status,Assigned_Person_Name,Assigned_Person_Last_Name,Assigned_Person_Position,Assigned_Person_Department,Team_Lead_Name,Team_Lead_Last_Name) VALUES('Global Ticket','Продажа билетов по всему миру','01-01-2019','07-04-2021','Планирование','01-01-2019','01-03-2019','PLA-001','01-01-2019','15-01-2019','Проектирование планирования','Выполнена','Волчик','Владислав','Project Manager','Management','','');
@@ -144,3 +146,5 @@ FROM DATA_TABLE
   LEFT JOIN PROJECT P ON (Project_Name = P.NAME AND Project_Description = P.DESCRIPTION AND Project_Start_Date = P.START_DATE AND Project_End_Date = P.FINISH_DATE)
 WHERE
   Team_Lead_Name IS NOT NULL OR Team_Lead_Last_Name IS NOT NULL;
+
+COMMIT;

@@ -1,0 +1,298 @@
+Calling script create_data_table
+
+Table created.
+
+Calling script create_table_project
+
+Table created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+Calling script create_table_stage
+
+Table created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+Calling script create_table_skill
+
+Table created.
+
+
+Comment created.
+
+
+Comment created.
+
+Calling script create_table_task
+
+Table created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+Calling script create_table_task_status
+
+Table created.
+
+
+Comment created.
+
+
+Comment created.
+
+Calling script create_table_department
+
+Table created.
+
+
+Comment created.
+
+
+Comment created.
+
+Calling script create_table_developer
+
+Table created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+Calling script create_table_developer_task
+
+Table created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+Calling script create_table_developer_skill
+
+Table created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+Calling script create_table_role
+
+Table created.
+
+
+Comment created.
+
+
+Comment created.
+
+Calling script create_table_developer_role
+
+Table created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+Calling script create_table_team
+
+Table created.
+
+
+Comment created.
+
+
+Comment created.
+
+Calling script create_table_team_developer
+
+Table created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+Calling script create_table_team_project
+
+Table created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+Calling script create_constraints
+
+Table altered.
+
+
+Index created.
+
+
+Table altered.
+
+
+Index created.
+
+
+Table altered.
+
+
+Index created.
+
+
+Table altered.
+
+
+Index created.
+
+
+Table altered.
+
+
+Index created.
+
+
+Table altered.
+
+
+Index created.
+
+
+Table altered.
+
+
+Index created.
+
+
+Table altered.
+
+
+Index created.
+
+
+Table altered.
+
+
+Index created.
+
+
+Table altered.
+
+
+Index created.
+
+
+Table altered.
+
+
+Index created.
+
+
+Table altered.
+
+
+Index created.
+
+
+Table altered.
+
+
+Index created.
+
+
+Table altered.
+
+
+Index created.
+
+
+Table altered.
+
+
+Index created.
+
+
+Table altered.
+
+
+Index created.
+
